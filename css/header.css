@@ -1,0 +1,49 @@
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-container {
+    background: #38AF90;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.rigth-content{
+    display: flex;
+}
+.name-page h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+}
+
+.header-options a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 29px;
+}
+
+.icon-image img {
+    width: 62px;
+    height: 62px;
+}
+
+/* Estilos para telas menores que 720px */
+@media (max-width: 720px) {
+    .header-options {
+        display: none;
+    }
+}

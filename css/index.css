@@ -1,0 +1,12 @@
+@import url(header.css);
+@import url(card.css);
+@import url(game.css);
+@import url(submit.css);
+@import url(footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}

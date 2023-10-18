@@ -1,0 +1,101 @@
+.card-section {
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.card-news-title {
+    color: #797979;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+}
+
+.news-card {
+    background: #F0F0F0;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    padding: 15px 13px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-card-container h2 {
+    color: #38af90;
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+.title-card-container h3 {
+    color: #797979;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #38af90;
+}
+
+.title-card-container p {
+    color: #38af90;
+    font-size: 12px;
+}
+
+.content-news-card {
+    color: #797979;
+    font-size: 10px;
+}
+
+.more-news {
+    color: #DD7E92;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.button-more button {
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background: #DD7E92;
+
+    border: 1px solid #DD7E92;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (min-width: 720px) {
+    .card-section {
+        max-width: 990px;
+        /* Ocupa a largura total da tela */
+        padding: 20px;
+        /* Ajuste o padding conforme necessário */
+    }
+
+    .card-news-title {
+        font-size: 18px;
+        padding: 40px 0;
+        /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .news-card {
+        border-radius: 5px;
+        /* Reduza o raio do border-radius conforme necessário */
+        margin-bottom: 20px;
+        /* Ajuste a margem conforme necessário */
+        padding: 20px;
+    }
+
+    .button-more{
+        padding-top: 20px;
+    }
+}

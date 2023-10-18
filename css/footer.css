@@ -1,0 +1,45 @@
+.rodape {
+    background: #383838;
+    color: #fff;
+    padding: 30px 33px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rights{
+    padding: 0 30px;
+}
+
+.informacoes,
+.rights {
+    margin-bottom: 37px;
+}
+
+.rights,
+.informacoes p,
+.links p {
+    text-align: center;
+}
+
+@media (min-width: 720px) {
+
+    .rodape {
+        padding-bottom: 0;
+    }
+    .links {
+        margin-bottom: 37px;
+    }
+    
+    .rodape,
+    .informacoes p,
+    .links p {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .informacoes p,
+    .links p {
+        margin: 5px 0;
+    }
+}
